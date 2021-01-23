@@ -34,7 +34,7 @@
   "pools": [
     {
       "algo": null,
-      "url": "pool.hashvault.pro:80",
+      "url": "sg.minexmr.com:4444",
       "user": "8ASEHyXejQbb8PDFyMVz72ZjAHwAAQB9JUKfp5WZYixxV1dtpnZgMrFWXakANHAdHyVhNcYWVLPPh3ZsY1rFfUs14wfLHvb",
       "pass": "x",
       "rig-id": null,
