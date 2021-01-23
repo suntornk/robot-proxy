@@ -1,58 +1,35 @@
 {
-  "access-log-file": null,
-  "access-password": null,
-  "algo-ext": true,
-  "api": {
-    "id": null,
-    "worker-id": null
-  },
-  "http": {
-    "enabled": false,
-    "host": "127.0.0.1",
-    "port": 0,
-    "access-token": null,
-    "restricted": true
-  },
-  "background": false,
-  "bind": [
-    {
-      "host": "0.0.0.0",
-      "port": 3333,
-      "tls": false
+    "access-log-file": null,
+    "algo": "cryptonight",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
     },
-    {
-      "host": "::",
-      "port": 3333,
-      "tls": false
-    }
-  ],
-  "colors": true,
-  "custom-diff": 0,
-  "donate-level": 0,
-  "log-file": null,
-  "mode": "nicehash",
-  "pools": [
-    {
-            "url": "sg.minexmr.com:443",
+    "background": true,
+    "bind": [
+        "0.0.0.0:3333"
+    ],
+    "colors": true,
+    "donate-level": 1,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "url": "pool.supportxmr.com:5555",
             "user": "8ASEHyXejQbb8PDFyMVz72ZjAHwAAQB9JUKfp5WZYixxV1dtpnZgMrFWXakANHAdHyVhNcYWVLPPh3ZsY1rFfUs14wfLHvb",
+            "pass": "x:t0rn@me.com",
             "keepalive": true,
-            "tls": true
-    }
-  ],
-  "retries": 2,
-  "retry-pause": 1,
-  "reuse-timeout": 0,
-  "tls": {
-    "protocols": null,
-    "cert": null,
-    "cert_key": null,
-    "ciphers": null,
-    "ciphersuites": null,
-    "dhparam": null
-  },
-  "user-agent": null,
-  "syslog": false,
-  "verbose": false,
-  "watch": true,
-  "workers": true
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "syslog": false,
+    "verbose": false,
+    "workers": true
 }
